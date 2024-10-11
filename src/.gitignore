@@ -1,0 +1,36 @@
+# Generated Hugo files
+/public/
+/resources/
+
+# Log files
+hugo_stats.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using npm or yarn)
+node_modules/
+
+# Dependency directories
+/vendor/
+
+# IDE and editor directories
+.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Sass cache
+.sass-cache/
+
+# Temporary files
+*.tmp
+*.log
+
+# Backup files
+*.swp
+*~
+
+# Environment variables
+.env
