@@ -6,7 +6,7 @@ The Tunisian Open Source Initiative is a collaborative effort to unite Tunisian 
 Read the full Code of Conduct [here](CODE_OF_CONDUCT.md).
 
 ## Manifesto 
-Read the Manifesto of the Tunisian Open Source Initiative [here](MANIFESTO.md)
+Read the Manifesto of the Tunisian Open Source Initiative [here](src/content/manifesto/_index.md).
 
 ## Contributing
 Read the Contributing Guidelines [here](CONTRIBUTING.md).
