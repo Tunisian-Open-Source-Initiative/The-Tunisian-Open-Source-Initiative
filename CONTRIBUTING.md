@@ -99,6 +99,14 @@ Please also review our [Code of Conduct](CODE_OF_CONDUCT.md) for more details on
 
 ---
 
+## Technical Contributions
+
+For developers and technical contributors, we have created a comprehensive guide on how to contribute to our projects, covering coding standards, testing, setting up your development environment, and more.
+
+Please refer to the [Technical Contribution Guide](contributing_guides/TECHNICAL_GUIDE.md) for detailed instructions on making technical contributions to the initiative.
+
+---
+
 ## Getting Started
 
 1. **Join Our Discord Server**: Connect with the community [here](https://discord.gg/cTn5EPjE).

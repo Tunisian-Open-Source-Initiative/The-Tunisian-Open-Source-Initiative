@@ -7,3 +7,6 @@ Read the full Code of Conduct [here](CODE_OF_CONDUCT.md).
 
 ## Manifesto 
 Read the Manifesto of the Tunisian Open Source Initiative [here](MANIFESTO.md)
+
+## Contributing
+Read the Contributing Guidelines [here](CONTRIBUTING.md).
