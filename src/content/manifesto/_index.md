@@ -1,5 +1,9 @@
 ---
-title: "Manifesto for the Tunisian Open Source Initiative"
+title: "Manifesto"
+date: 2024-10-12T00:00:00+01:00
+draft: false
+description: "The Open Source Tunisia Manifesto is a declaration of our commitment to creating open-source projects that are free, transparent, and accessible to all."
+
 ---
 
 ## Preamble

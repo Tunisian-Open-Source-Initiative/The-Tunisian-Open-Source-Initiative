@@ -1,52 +1,115 @@
+/* Variables */
+:root {
+  --font-primary: 'Poppins', sans-serif;
+  --font-secondary: 'Roboto', sans-serif;
+  --color-background: #ffffff;
+  --color-text: #333;
+  --color-accent: #0055aa;
+  --color-border: #e0e0e0;
+  --color-bg-light: #f8f9fa;
+  --color-bg-dark: #333;
+  --color-text-light: #fff;
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap');
+
+/* Base styles */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  background: #ffffff;
-  color: #333;
+  font-family: var(--font-primary);
+  background: var(--color-background);
+  color: var(--color-text);
 }
 
+/* Container */
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 70vh;
+  min-height: 100vh;
 }
 
+/* Header */
 header {
   padding: 2rem;
   text-align: center;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e0e0e0;
+  background-color: var(--color-bg-light);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   margin: 0;
-  font-size: 2rem;
-  font-weight: 300;
-  color: #333;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--color-text);
 }
 
+/* Main content */
 main.content {
   flex: 1;
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Footer */
 footer {
+  background-color: var(--color-bg-light);
+  padding: 2rem;
   text-align: center;
-  padding: 1rem;
-  background-color: #f8f9fa;
-  border-top: 1px solid #e0e0e0;
-  font-size: 0.9rem;
-  color: #666;
+  border-top: 1px solid var(--color-border);
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* 
-Manifesto page styles 
-*/
+footer p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  color: var(--color-text);
+}
 
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.github-button, .discord-button {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text-light);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.github-button {
+  background-color: var(--color-accent);
+}
+
+.github-button:hover {
+  background-color: darken(var(--color-accent), 10%);
+}
+
+.discord-button {
+  background-color: #7289da;
+}
+
+.discord-button:hover {
+  background-color: darken(#7289da, 10%);
+}
+
+/* Manifesto page styles */
 .manifesto {
   padding: 4rem 0;
 }
@@ -60,12 +123,12 @@ Manifesto page styles
 }
 
 .manifesto-content {
-  font-family: 'Roboto';
+  font-family: var(--font-secondary);
   max-width: 800px;
   margin: 0 auto;
   line-height: 1.6;
   font-size: 1.125rem;
-  color: #333;
+  color: var(--color-text);
 }
 
 .manifesto-content h2 {
@@ -79,12 +142,25 @@ Manifesto page styles
   font-size: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: 0.75rem;
-  color: #0055aa;
+  color: var(--color-accent);
 }
 
 .manifesto-content p {
   margin-bottom: 1rem;
   text-align: justify;
+  transition: font-size 0.5s ease-in-out;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+
+
+.manifesto-content p:hover {
+  font-size: 1.5rem;
+}
+
+.manifesto-content p:hover ~ p {
+  font-size: 1rem;
 }
 
 .manifesto-content ul,
@@ -100,16 +176,14 @@ Manifesto page styles
 .manifesto-content blockquote {
   margin: 2rem 0;
   padding: 1rem 1.5rem;
-  background-color: #f8f9fa;
+  background-color: var(--color-bg-light);
   font-style: italic;
   color: #555;
 }
 
-
-
+/* Responsive design */
 @media (max-width: 768px) {
   .manifesto-content {
     padding: 0 1rem;
   }
 }
-
