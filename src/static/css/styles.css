@@ -24,7 +24,7 @@ h1 {
   margin: 0;
   font-size: 2rem;
   font-weight: 300;
-  color: #0066cc;
+  color: #333;
 }
 
 main.content {
@@ -42,3 +42,74 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+/* 
+Manifesto page styles 
+*/
+
+.manifesto {
+  padding: 4rem 0;
+}
+
+.manifesto h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  color: #222;
+}
+
+.manifesto-content {
+  font-family: 'Roboto';
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 1.125rem;
+  color: #333;
+}
+
+.manifesto-content h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.manifesto-content h3,
+.manifesto-content h4 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #0055aa;
+}
+
+.manifesto-content p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.manifesto-content ul,
+.manifesto-content ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.manifesto-content li {
+  margin-bottom: 0.5rem;
+}
+
+.manifesto-content blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  background-color: #f8f9fa;
+  font-style: italic;
+  color: #555;
+}
+
+
+
+@media (max-width: 768px) {
+  .manifesto-content {
+    padding: 0 1rem;
+  }
+}
+

@@ -1,6 +1,9 @@
 {{ define "main" }}
-  <section>
-    <h2>{{ .Title }}</h2>
-    <div>{{ .Content }}</div>
-  </section>
+<section class="hero">
+  <div class="container">
+    <h2>{{ .Description }}</h2>
+    <p>{{ .Content }}</p>
+    <a href="{{ "/manifesto/" | relURL }}" class="cta-button">Read Our Manifesto</a>
+  </div>
+</section>
 {{ end }}
