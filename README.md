@@ -1,4 +1,4 @@
-# The-Tunisian-Open-Source-Initiative
+# The Tunisian Open Source Initiative
 
 The Tunisian Open Source Initiative is a collaborative effort to unite Tunisian minds in creating free, transparent, and accessible open-source projects that enhance education, culture, democracy, science, and art 🇹🇳.
 
