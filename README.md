@@ -1,4 +1,4 @@
-![deploi state](https://github.com/Tunisian-Open-Source-Initiative/The-Tunisian-Open-Source-Initiative/actions/workflows/hugo.yaml/badge.svg)
+![deploi state](https://github.com/Tunisian-Open-Source-Initiative/The-Tunisian-Open-Source-Initiative/actions/workflows/hugo.yaml/badge.svg) 
 # The Tunisian Open Source Initiative
 
 The Tunisian Open Source Initiative is a collaborative effort to unite Tunisian minds in creating free, transparent, and accessible open-source projects that enhance education, culture, democracy, science, and art 🇹🇳.
@@ -11,3 +11,6 @@ Read the Manifesto of the Tunisian Open Source Initiative [here](src/content/man
 
 ## Contributing
 Read the Contributing Guidelines [here](CONTRIBUTING.md).
+
+## Live website
+https://tunisian-open-source-initiative.github.io/The-Tunisian-Open-Source-Initiative/
