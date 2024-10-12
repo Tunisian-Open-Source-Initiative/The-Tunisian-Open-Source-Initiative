@@ -3,7 +3,7 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - cd/add-github-workflow
+      - main
 
   workflow_dispatch:
 
