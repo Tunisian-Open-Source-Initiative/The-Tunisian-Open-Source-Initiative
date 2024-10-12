@@ -3,7 +3,7 @@
   <div class="container">
     <h2>{{ .Description }}</h2>
     <p>{{ .Content }}</p>
-    <a href="{{ "/manifesto/" | relURL }}" class="cta-button">Read Our Manifesto</a>
+    <a href="{{ relURL  "manifesto" }}" class="cta-button">Read Our Manifesto</a>
   </div>
 </section>
 {{ end }}
